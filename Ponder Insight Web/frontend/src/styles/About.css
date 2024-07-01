@@ -1,0 +1,265 @@
+#About {
+
+    height: 180vh;
+   
+}
+
+.aboutimg {
+
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.aboutimg img {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.aboutimg p {
+    position: relative;
+    top: -280px;
+    left: 200px;
+ 
+
+}
+
+.aboutimg button {
+    position: relative;
+    top: -250px;
+    left: 200px;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.aboutus {
+
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+  
+}
+
+.aboutus p {
+    width: 50%;
+    text-align: justify;
+ 
+}
+
+.latestBlogPost {
+
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(90, 90, 90, 0.051);
+    
+
+}
+
+.latestBlogPost .blogCards {
+
+    height: 60vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.latestBlogPost .blogCards .Blogcard {
+    background-color: rgba(128, 128, 128, 0.192);
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.19);
+    width: 25%;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.blogimg {
+
+    border-radius: 10px;
+    height: 25vh;
+}
+
+.blogtext {
+
+    height: 23vh;
+    width: 90%;
+    margin: 2px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.blogtext p {
+    text-align: justify;
+ 
+}
+
+.blogtext button {
+    margin: auto;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(0, 130, 86);
+    color: rgb(0, 130, 86);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blogimg img {
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+}
+
+.Contact {
+    /* background-color: rgba(82, 82, 255, 0.238); */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+.Contact .ContactLeft {
+
+    width: 40%;
+    height: 50vh;
+   
+}
+
+
+
+
+.Contact .ContactLeft h1 {
+    text-align: left;
+    
+}
+
+.Contact .ContactLeft p {
+    text-align: left;
+    
+}
+
+
+.Contact .ContactLeft form {
+    margin-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.Contact .ContactLeft form input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+}
+
+.Contact .ContactLeft form textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+}
+
+.subbtn {
+
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.subbtn button {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.Contact .Contactright {
+
+    width: 40%;
+    height: 45vh;
+}
+
+
+.Contact .Contactright img {
+    width: 100%;
+    height: 45vh;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    #About {
+        height: 180vh;
+    }
+
+    .aboutimg {
+        display: none;
+    }
+
+    .aboutus {
+
+        height: 75vh;
+
+    }
+
+    .aboutus p {
+        width: 90%;
+    }
+
+
+    .latestBlogPost {
+
+        height: 50vh;
+    }
+
+    .Contact {
+
+        height: 50vh;
+    }
+
+    .ContactLeft {
+
+        width: 98% !important;
+        height: 20vh !important;
+    }
+
+}
